@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="simple website built with HTML, CSS, HTML5, CSS3, JS, JQuery and Bootstrap"
+    />
+    <meta
+      name="keywords"
+      content="web, design, html, css, css3, html5, bootstrap, js, jquery, javascript, development"
+    />
+
+    <title>LoSo - Responsive Website</title>
+
+    <!-- FontAwesome link -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500i,600,600i,700,700i,800,900"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <link rel="icon" href="images/favicon.png" />
+    <!-- bxslider Bootstrap -->
+    <link rel="stylesheet" href="css/jquery.bxslider.min.css" />
+    <!-- Animate Bootstrap -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- Bootstrap + CSS -->
+    <link rel="stylesheet" href="css/bootstrap-4.2.1.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header" id="home">
+      <nav class="navbar navbar-expand-lg fixed-top custom-nav navbar-light">
+        <a class="navbar-brand" href="#home">
+          <!-- small image logo -->
+          <img src="images/logo-small.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#loso"
+          aria-controls="loso"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="loso">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#home" id="home-link">Home</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#purchase">Purchase</a>
+            </li>
+            <li class="nav-item pr-2">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="header-overlay">
+        <div class="container header-container">
+          <!-- logo row -->
+          <div class="row">
+            <div class="col-md-12">
+              <!-- header logo -->
+              <div class="logo text-center">
+                <img src="images/logo.png" alt="logo" />
+              </div>
+            </div>
+          </div>
+          <!-- title & img row -->
+          <div class="row">
+            <div class="col-md-8">
+              <!-- title & discription -->
+              <div class="header-text">
+                <h1>A clean and modern looking responsive website</h1>
+                <p>Built with great love!</p>
+              </div>
+              <!-- header buttons -->
+              <div class="header-btn">
+                <a href="#" class="btn btn-download wow fadeInLeft">Download</a>
+                <a href="#" class="btn btn-tour wow fadeInRight"
+                  >Take A Tour <i class="fa fa-angle-down"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-3 offset-md-1">
+              <!-- header image -->
+              <div class="header-img">
+                <img src="images/iphone-header.png" alt="header iphone" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Us section -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <!-- Description and Title -->
+            <div class="title-section">
+              <h2>About Us</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Praesent rhoncus ultricies nibh, vitae sodales purus. Aenean
+                volutpat ullamcorper cursus. Duis tristique sit amet augue ac
+                vestibulum.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Choose us section -->
+        <div class="choose-us-wraper">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <!-- About Iphone image -->
+                <div
+                  class="about-iphone wow fadeInLeft"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5"
+                >
+                  <img src="images/about-iphone.png" alt="about iphone" />
+                </div>
+              </div>
+
+              <!-- Choose us -->
+              <div
+                class="col-md-6 wow fadeInRight"
+                data-wow-duration="1s"
+                data-wow-delay="0.5"
+              >
+                <div class="choose-title">
+                  <h2>WHY CHOOSE US?</h2>
+                  <p>
+                    Cum sociis natoque penatibus et magnis dis parturient
+                    montes, nascetur ridiculus mus. Quisque lacus dui, interdum
+                    sit amet varius.
+                  </p>
+                </div>
+
+                <!-- Why choose us -->
+                <div class="choose-us-des">
+                  <!-- choose item 1 -->
+                  <div
+                    class="choose-us-item wow fadeInUp"
+                    data-wow-duration="1s"
+                    data-wow-delay="0.5"
+                  >
+                    <div><i class="fa fa-bolt"></i></div>
+                    <h3>QUISQUE LACUS DUI</h3>
+                    <p>
+                      Lipsum Cum sociis natoque penatibus et magnis dis
+                      parturient montes, nascetur ridiculus mus. Quisque lacus
+                      dui, interdum sit amet varius a, cursus sit amet sapien.
+                      Donec eu placerat nisi.
+                    </p>
+                  </div>
+
+                  <!-- choose item 2 -->
+                  <div
+                    class="choose-us-item wow fadeInUp"
+                    data-wow-duration="1s"
+                    data-wow-delay="0.5"
+                  >
+                    <div><i class="fa fa-bullhorn"></i></div>
+                    <h3>DONEC EU PLACERAT NISI</h3>
+                    <p>
+                      Diso Lipsum Cum sociis natoque penatibus et magnis dis
+                      parturient montes, nascetur ridiculus mus. Quisque lacus
+                      dui, interdum sit amet varius a, cursus sit amet sapien.
+                      Donec eu placerat nisi.
+                    </p>
+                  </div>
+
+                  <!-- choose item 3 -->
+                  <div
+                    class="choose-us-item wow fadeInUp"
+                    data-wow-duration="1s"
+                    data-wow-delay="0.5"
+                  >
+                    <div><i class="fa fa-flag"></i></div>
+                    <h3>PERSPICIATIS UNDE OMNIS</h3>
+                    <p>
+                      Sed ut perspiciatis Cupidatat non proident, sunt in culpa
+                      qui officia deserunt mollit anim id est laborum.unde omnis
+                      iste natus error sit.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials section -->
+    <section class="testimonial">
+      <!-- section overlay -->
+      <div class="testimonial-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 wow bounceInDown">
+              <div id="testimonial" class="carousel slide" data-ride="carousel">
+                <!-- indicators -->
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#testimonial"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#testimonial" data-slide-to="1"></li>
+                  <li data-target="#testimonial" data-slide-to="2"></li>
+                </ol>
+
+                <!-- testimonial content -->
+                <div class="carousel-inner">
+                  <div class="carousel-item text-center active">
+                    <img src="images/client-01.jpg" alt="testimonial" />
+                    <div class="testimonial-caption">
+                      <h2>John</h2>
+                      <h4 class="se-person">
+                        <span>Sr. Software Engineer, </span>Blue Gyms
+                      </h4>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Sint doloremque quibusdam nam excepturi ipsa
+                        tempora voluptates eum, sunt repellendus vel!
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <img src="images/client-02.jpg" alt="testimonial" />
+                    <div class="testimonial-caption">
+                      <h2>Rauls Bole</h2>
+                      <h4><span>Marketing Manager, </span>Risko</h4>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Sint doloremque quibusdam nam excepturi ipsa
+                        tempora voluptates eum, sunt repellendus vel!
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item text-center">
+                    <img src="images/client-03.jpg" alt="testimonial" />
+                    <div class="testimonial-caption">
+                      <h2>Jim So</h2>
+                      <h4><span>Assistant Manager, </span>Gidfo</h4>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Sint doloremque quibusdam nam excepturi ipsa
+                        tempora voluptates eum, sunt repellendus vel!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="features" id="features">
+      <div class="container">
+        <!-- title -->
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div
+              class="title-section wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <h2>Features</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit deleniti non cupiditate voluptatum! Reprehenderit esse
+                voluptates culpa iure, eveniet accusamus velit temporibus
+                debitis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="features-wraper">
+          <div class="row">
+            <div
+              class="col-md-4 features-col wow fadeInLeft"
+              data-wow-delay="0.5"
+              data-wow-duration="1s"
+            >
+              <div class="features-item-lt">
+                <div><i class="fa fa-desktop"></i></div>
+                <h3>Retina Ready</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  sunt aperiam eum!
+                </p>
+              </div>
+
+              <div class="features-item-lt">
+                <div><i class="fa fa-mobile"></i></div>
+                <h3>Mobile Ready</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  sunt aperiam eum!
+                </p>
+              </div>
+
+              <div class="features-item-lt">
+                <div><i class="fa fa-eye"></i></div>
+                <h3>Easy Layout</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  sunt aperiam eum!
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 wow bounceIn" data-wow-duration="1s">
+              <div class="features-iphone">
+                <img src="images/iphone-02.png" alt="feature iphone" />
+              </div>
+            </div>
+            <div
+              class="col-md-4 features-col wow fadeInRight"
+              data-wow-delay="0.5"
+              data-wow-duration="1s"
+            >
+              <div class="features-item-rt">
+                <div><i class="fa fa-certificate"></i></div>
+                <h3>Certified Solution</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  sunt aperiam eum!
+                </p>
+              </div>
+
+              <div class="features-item-rt">
+                <div><i class="fa fa-rss"></i></div>
+                <h3>Constant Feed</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  sunt aperiam eum!
+                </p>
+              </div>
+
+              <div class="features-item-rt">
+                <div><i class="fa fa-database"></i></div>
+                <h3>Secure Data</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                  sunt aperiam eum!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Purchase section -->
+    <section class="purchase" id="purchase">
+      <div class="container">
+        <div class="row wow fadeInLeftBig" data-wow-duration="1s">
+          <div class="col-md-9">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              nemo accusamus delectus amet dolores, vero aspernatur doloribus
+              hic aliquid, adipisci omnis, aliquam natus eum neque porro?
+            </p>
+          </div>
+          <div class="col-md-3">
+            <a class="btn btn-primary btn-purchase " href="#">Purchase Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Screens section -->
+    <section class="screens">
+      <div class="container">
+        <div class="row">
+          <!-- screens title -->
+          <div class="col-md-10 offset-md-1">
+            <div class="title-section">
+              <h2>Screens</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                cum alias in saepe ducimus numquam voluptas sequi eius enim a!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- image slider -->
+      <div class="img-slider">
+        <div class="container">
+          <div class="row slider wow bounceInRight" data-wow-duration="1s">
+            <div class="item">
+              <img src="images/screen-01.png" alt="screen" />
+            </div>
+            <div class="item">
+              <img src="images/screen-02.png" alt="screen" />
+            </div>
+            <div class="item">
+              <img src="images/screen-03.png" alt="screen" />
+            </div>
+            <div class="item">
+              <img src="images/screen-04.png" alt="screen" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Counter section -->
+    <section class="counter-section">
+      <div class="counter-overlay">
+        <div class="container">
+          <div class="row text-center wow bounceInLeft" data-wow-duration="1s">
+            <!-- counter one -->
+            <div class="col-md-3">
+              <div class="counter-item">
+                <div><i class="fas fa-cloud-download-alt"></i></div>
+                <h2><span class="counter"> 1588 </span><span>+</span></h2>
+                <p>Downloads</p>
+              </div>
+            </div>
+
+            <!-- counter two -->
+            <div class="col-md-3">
+              <div class="counter-item">
+                <div><i class="fa fa-gift"></i></div>
+                <h2><span class="counter"> 3500 </span><span>+</span></h2>
+                <p>Awards</p>
+              </div>
+            </div>
+
+            <!-- counter three -->
+            <div class="col-md-3">
+              <div class="counter-item">
+                <div><i class="far fa-heart"></i></div>
+                <h2><span class="counter"> 199 </span><span>+</span></h2>
+                <p>Likes</p>
+              </div>
+            </div>
+
+            <!-- counter four -->
+            <div class="col-md-3">
+              <div class="counter-item">
+                <div><i class="fa fa-check"></i></div>
+                <h2><span class="counter"> 1066 </span><span>+</span></h2>
+                <p>Recommended</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Now section -->
+    <section class="download-now">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="title-section">
+              <h2>Download Now</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                beatae quidem recusandae ipsum ducimus veniam suscipit iure,
+                itaque modi corporis minima doloribus, consequatur unde tempore?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 offset-md-2 wow fadeInUp" data-wow-duration="1s">
+            <img src="images/download-screen.png" alt="download screen" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Available section -->
+    <section class="available wow bounceInRight" data-wow-duration="1s">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 available-title">
+            <h2>Available Now</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              corrupti porro sequi dolorem illum dignissimos minus sed dolores,
+              tenetur fugiat!
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-4 no-padding">
+                <a href="#">
+                  <div class="available-item">
+                    <i class="fab fa-apple"></i>
+                    <div class="available-inner">
+                      <h2>iOS</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4 no-padding">
+                <a href="#">
+                  <div class="available-item">
+                    <i class="fab fa-android"></i>
+                    <div class="available-inner">
+                      <h2>Android</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col-md-4 no-padding">
+                <a href="#">
+                  <div class="available-item">
+                    <i class="fab fa-windows"></i>
+                    <div class="available-inner">
+                      <h2>Windows</h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact us section -->
+    <section class="contact-us" id="contact">
+      <div class="container wow bounceIn">
+        <div class="row">
+          <div class="col-md-10 offset-md-1">
+            <div class="title-section">
+              <h2>Contact Us</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                quaerat! Accusantium cum voluptatem, consectetur sapiente
+                expedita dolore! Illo, sint similique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-us-form wow bounceIn">
+        <div class="container">
+          <form>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="inputs">
+                  <input
+                    type="text"
+                    id="name"
+                    class="form-control"
+                    placeholder="Name"
+                  />
+                  <input
+                    type="email"
+                    id="email"
+                    class="form-control"
+                    placeholder="Email"
+                  />
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    placeholder="Subject"
+                  />
+                </div>
+              </div>
+
+              <div class="col-md-8">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="15"
+                  cols="10"
+                  placeholder="Message Text..."
+                ></textarea>
+                <button type="button" class="btn btn-primary submit-btn ">
+                  Send
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="social-icons wow bounceInLeft">
+              <ul>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" id="copyright">
+            <p>
+              Copyrights &copy; 2019 -
+              <a href="#home" class="home"><span id="logo">LoSo</span></a>
+            </p>
+          </div>
+          <div class="col-md-6 scroll-top">
+            <a href="#home" class="home"><i class="fas fa-angle-up"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JQuery script -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <!-- Bootstrap JS script -->
+    <script src="js/popper-1.14.6.min.js"></script>
+    <script src="js/bootstrap-4.2.1.min.js"></script>
+    <!-- bxslider script -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!-- Counterup script -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Waypoints script -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- WOW script -->
+    <script src="js/wow.min.js"></script>
+    <!-- Custom script -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
